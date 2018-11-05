@@ -20,7 +20,7 @@ class App extends React.Component {
 
         <nav>
           <ul>
-            <li><a href="#top" className="active">Home</a></li>
+            <li><a href="#top">Home</a></li>
             <li><a href="#top">Technology</a></li>
             <li><a href="#top">Creativity</a></li>
             <li><a href="#top">Entrepreneurship</a></li>
@@ -38,26 +38,26 @@ class App extends React.Component {
 
         <div className="content">
 
-          <div className="hero-box">
+          <div className="hero-container">
             <div className="hero-copy">
-              <div className="inner-margin">
+
                 <h1>Interesting ideas that set your mind in motion.</h1>
                 <h3>Hear directly from the people who know it best.
                   From tech to politics to creativity and more —
                   whatever your interest, we&lsquo;ve got you covered.
                 </h3>
-              </div>
-              <div className="CTA-button CTA-button-1">Get started</div>
-              <div className="CTA-button CTA-button-2">Learn more</div>
+
+              <div className="Hero-button Hero-button-1">Get started</div>
+              <div className="Hero-button Hero-button-2">Learn more</div>
             </div>
             <div className="hero-image">
-              <img src={heroimg} alt="Hero-bild" />
+              <img src={heroimg} alt="hero" />
             </div>
           </div>
 
           <div className="content-boxes">
 
-            <div className="puff-box">
+            <div className="article-box">
               <div className="image-box" style={{ backgroundImage: `url(${puff1})` }} />
               <div className="copy-box">
                 <div className="inner">
@@ -75,7 +75,7 @@ class App extends React.Component {
               </div>
             </div>
 
-            <div className="puff-box">
+            <div className="article-box">
               <div className="image-box" style={{ backgroundImage: `url(${puff2})` }} />
               <div className="copy-box">
                 <div className="inner">
@@ -93,7 +93,7 @@ class App extends React.Component {
               </div>
             </div>
 
-            <div className="puff-box">
+            <div className="article-box">
               <div className="image-box" style={{ backgroundImage: `url(${puff3})` }} />
               <div className="copy-box">
                 <div className="inner">
@@ -113,7 +113,7 @@ class App extends React.Component {
               </div>
             </div>
 
-            <div className="puff-box">
+            <div className="article-box">
               <div className="image-box" style={{ backgroundImage: `url(${puff4})` }} />
               <div className="copy-box">
                 <div className="inner">

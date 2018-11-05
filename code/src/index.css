@@ -68,7 +68,6 @@ hr {
   margin-left: 220px;
 }
 
-/* NAVIGATION */
 
 nav {
   height: 75px;
@@ -106,15 +105,13 @@ li {
   color: black;
 }
 
-/* HERO BLOCK */
 
-.hero-box {
+.hero-container {
   display: flex;
-}
-
-.inner-margin {
   margin-right: 20px;
 }
+
+
 
 .hero-copy {
   width: 65%;
@@ -131,7 +128,7 @@ img {
   width: 100%;
 }
 
-.CTA-button {
+.Hero-button {
   background: white;
   border-radius: 5px;
   border-style: solid;
@@ -144,19 +141,17 @@ img {
   margin-bottom: 40px;
 }
 
-.CTA-button-1 {
+.Hero-button-1 {
   background: black;
   color: white;
   border-color: black;
   margin-right: 15px;
 }
 
-.CTA-button-2 {
+.Hero-button-2 {
   background: none;
   color: black;
 }
-
-/* CONTENT BLOCKS */
 
 .content-boxes {
   display: flex;
@@ -166,7 +161,7 @@ img {
   margin-bottom: 40px;
 }
 
-.puff-box {
+.article-box {
   width: 49%;
   display: flex;
   border: solid 1px #cacaca;
